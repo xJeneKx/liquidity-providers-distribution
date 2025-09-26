@@ -83,7 +83,7 @@ async function distributeIfReady(){
 				notifications.notifyAdmin("a payment failed", err);
 				bPaymentFailedNotified = true;
 			}
-			setTimeout(distributeIfReady, 300 * 1000);
+		//	setTimeout(distributeIfReady, 300 * 1000);
 			return unlock();
 
 		} else {
